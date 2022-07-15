@@ -12,7 +12,8 @@ FONT WEIGHTS:
 
 LINE HEIGTS:
     Default: 1
-
+    1.05
+    1.6 paragraph defalt
 FONT SIZE SYSTEM (px)
       10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
@@ -55,6 +56,23 @@ body{
 /* **************************** */
 /* general reusable components */
 /* **************************** */
+.grid{
+    display: grid;
+    gap: 9.6rem;
+    
+}
+
+.grid--2-cols{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid--3-cols{
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols{
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .heading-primary{
     font-size: 5.2rem;
     line-height: 1.06;
@@ -236,4 +254,30 @@ body{
     color: #cf711f;
     font-weight: 700;
 
+}
+/* **************************** */
+/* how it works section*/
+/* **************************** */
+
+.section-how{
+    padding: 9.6px 0;
+    
+}
+
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+
+
+
+.section-how div{
+    padding: 100px;
+
+    font-size: 50px;
+}
+
+.step-img{
+    width: 50%;
 }
