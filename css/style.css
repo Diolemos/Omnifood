@@ -238,8 +238,39 @@
 /*  ******************* */
 /* meals section */
 
+.meal{
+    box-shadow:0 2.4rem 4.8rem rgba(0,0,0,0.50) ;
+    border-radius: 11px;
+    overflow: hidden;
+    
+}
+
 .section-melas{
     padding: 9.6rem;
+}
+
+.tag{
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    text-transform: uppercase;
+    
+    color: #333;
+    border-radius: 200px;
+}
+
+.tag--vegetarian{
+    background-color: #51cf66;
+}
+.tag--vegan{
+    background-color: #2ddf4a;
+}
+.tag--paleo{
+    background-color: #e2e631;
+}
+.meal-tag{
+    margin-bottom: 1.2rem;
+    display: flex;
+    gap: 1rem;
 }
 
 .meal-img{
@@ -263,4 +294,18 @@
 
 .meal-attribute{
     font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.meal-icon{
+    height: 2.4rem;
+    width: 2.4rem;
+    color: #e67e22;
+
+}
+
+.meal-content{
+    padding: 3.2rem 4.8rem 4.8rem 4.8rem;
 }
