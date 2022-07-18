@@ -242,7 +242,11 @@
     box-shadow:0 2.4rem 4.8rem rgba(0,0,0,0.50) ;
     border-radius: 11px;
     overflow: hidden;
+    transition: all 300ms;
     
+}
+.meal:hover{
+    transform: translatey(-1.2rem);
 }
 
 .section-melas{
@@ -330,4 +334,9 @@
     height: 3rem;
     color: #e67e22;
 
+}
+
+.all-recipes{
+    text-align: center;
+    font-size: 1.8rem;
 }
