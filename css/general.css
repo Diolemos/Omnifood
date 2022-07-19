@@ -140,7 +140,7 @@ margin-bottom: 9.6rem;
 .btn, .btn:link, .btn:visited{
     
     font-size: 2rem;
-    
+    margin-top: 3.2rem;
     padding: 1.6rem 3.2rem;
     border-radius: 9px;
     text-decoration: none;
