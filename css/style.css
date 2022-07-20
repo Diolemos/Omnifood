@@ -55,6 +55,26 @@
 .main-nav-link.nav-cta:active{
     background-color: #cf711f;
 }
+/* Mobile */
+
+.btn-mobile-nav{
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    display: none;
+}
+
+.icon-mobile-nav{
+    height: 4.8rem;
+    width: 4.8rem;
+    color: #333;
+}
+
+.icon-mobile-nav[name="menu-outline"]{
+    display: none;
+}
+
 /* **************************** */
 /* Hero*/
 /* **************************** */
@@ -622,11 +642,16 @@ color: #2e1907;
     list-style: none;
     display: flex;
     gap: 2.4rem;
+    align-self: center;
+    padding-top: 0.8rem;
+    text-align: center;
 }
 
 .social-icon{
     height: 2.4rem;
     width: 2.4rem;
+    color: #333;
+    
 }
 
 .copyright{
@@ -639,7 +664,13 @@ color: #2e1907;
 .logo-col{
     display: flex;
     flex-direction: column;
+    
 }
+.logo-col a {
+    
+    align-self: center;
+}
+
 
 .footer-heading{
     font-size: 1.8rem;

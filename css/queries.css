@@ -101,5 +101,45 @@
     .gallery{
         grid-template-columns:repeat(6, 1fr) ;
     }
+    .cta{
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .cta-form{
+        grid-template-columns: 1fr;
+    }
+
+    .btn--form{
+        margin-top: 1.2rem;
+    }
+    .btn-mobile-nav{
+        display: block;
+    }
+
+
+    .main-nav{
+        background-color: rgba(225, 225, 225, 0.904);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-nav-list{
+        flex-direction: column;
+        gap: 4.8rem;
+    }
 
 }
+
+
+/* ****************************** */
+/*  Bellow 944px ,  Mobile */
+/* ********************************* */
+
+
+
